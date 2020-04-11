@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="img/favicon.jpg" type="image/jpeg" sizes="16x16">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/loader.css">
+
+<script src="javascript/loader.js"></script>
+<script src="javascript/disable.js"></script>
+<title>Videos</title>
+</head>
+<body>
+
+  <div id="navbar">
+    <a class="active" href="home.html">Home</a>
+    <a href="Videos.html">Videos</a>
+    <a href="Suggestions.html">Suggestions</a>
+    <a href="signup.html">Sign Up</a>
+  </div>
+ 
+  <div class="content"
+<div class="videos-embed">
+    <center>
+      <a class="hover" href="video/ep-9,10.html"><h1>Episode 9,10</h1></a>
+
+<br><iframe width="500" height="315" src="https://www.youtube.com/embed/8bRGCvTTbGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+  <a class="hover" href="video/ep-8.html"><h1>Episode 8</h1></a>
+
+<iframe width="500" height="315" src="https://www.youtube.com/embed/rSRusi8duB8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><span id="dots"></span><span id="more"><br>
+
+  <a class="hover" href="video/ep-7.html"><h1>Episode 7</h1></a>
+
+<iframe width="500" height="315" src="https://www.youtube.com/embed/v29GtkKR4ew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+<a class="hover" href="video/ep-6.html"><h1>Episode 6</h1></a>
+
+<iframe width="500" height="315" src="https://www.youtube-nocookie.com/embed/SGdqTX4o7dI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+<a class="hover" href="video/ep-5.html"><h1>Episode 5</h1></a>
+
+<iframe width="500" height="315" src="https://www.youtube.com/embed/S7c5y4IvUlM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+<a class="hover" href="video/ep-4.html"><h1>Episode 4</h1></a>
+
+<iframe width="500" height="315" src="https://www.youtube.com/embed/VQstzBssqS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+<a class="hover" href="video/ep-3.html"><h1>Episode 3</h1></a>
+
+<iframe width="500" height="315" src="https://www.youtube.com/embed/QVDehDE8b-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+<a class="hover" href="video/ep-1.html"><h1>Episode 1</h1></a>
+
+<iframe width="500" height="315" src="https://www.youtube.com/embed/9jTG--av3RU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</span></p><br>
+<button class="btn-readmore" onclick="myFunction()" id="myBtn">Read more</button><br>
+</center>
+    </div>
+  </div>
+
+  <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Show more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Show less"; 
+    moreText.style.display = "inline";
+  }
+}
+
+    </script>
+
+</body>
+</html>

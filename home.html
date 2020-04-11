@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="javascript/enable-scroll.js"></script>
+<link rel="icon" href="img/favicon.jpg" type="image/jpeg" sizes="16x16">
+<script src="javascript/disable.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="navbar">
+  <a class="active" href="home.html">Home</a>
+  <a href="Videos.html">Videos</a>
+  <a href="Suggestions.html">Suggestions</a>
+  <a href="signup.html">Sign Up</a>
+</div>
+
+<div class="content">
+    <img class="img-newsroom" src="img/NewsRoom.jpg" alt="News Room Malverm Prime News">
+</div>
+
+
+<h3 class="h3-welcome">
+    <center>
+    <p>Welcome to the Malvern Prime News website. This is the place <br>where all our episodes 
+    will be and you can see extras bloopers <br>send us suggestions on what we could include in 
+    our next episode. <br>Also on The Prime News website you can find out more about us<br>see all 
+    the people that help out that you dont see in our episodes. <br>On the Prime News site you will 
+    be able to watch our latest videos <br>if you didn't get to see them and see some extras. You 
+    can even<br> leave suggestions thats it for now, now its up to you go and <br>explore.</p>
+    </center>
+<br>
+</h3>
+</div>
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+</body>
+</html>
